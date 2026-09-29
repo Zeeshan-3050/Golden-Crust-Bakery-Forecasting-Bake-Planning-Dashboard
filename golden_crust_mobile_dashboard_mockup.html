@@ -1,0 +1,68 @@
+<h2 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Mobile layout mockup of the Golden Crust Bakeries executive dashboard, showing top metrics, a demand trend chart, and today's simplified bake planning list.</h2>
+<div style="background:var(--surface-1);border-radius:12px;padding:1rem;">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+    <div style="display:flex;align-items:center;gap:8px;">
+      <div style="width:32px;height:32px;border-radius:8px;background:var(--bg-accent);display:flex;align-items:center;justify-content:center;"><i class="ti ti-chart-bar" style="font-size:18px;color:var(--text-accent);" aria-hidden="true"></i></div>
+      <div>
+        <p style="font-weight:500;font-size:15px;margin:0;">Golden Crust Bakeries</p>
+        <p style="font-size:12px;color:var(--text-muted);margin:0;">Executive overview</p>
+      </div>
+    </div>
+    <span style="font-size:11px;color:var(--text-secondary);">Updated 8:15am</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:12px;">
+    <div style="background:var(--surface-2);border-radius:var(--radius);padding:1rem;">
+      <p style="font-size:13px;color:var(--text-secondary);margin:0 0 4px;">Total cases sold</p>
+      <p style="font-size:22px;font-weight:500;margin:0;">12,640</p>
+      <p style="font-size:12px;color:var(--text-success);margin:4px 0 0;"><i class="ti ti-trending-up" style="font-size:13px;vertical-align:-1px;" aria-hidden="true"></i> 6.2% vs last week</p>
+    </div>
+    <div style="background:var(--surface-2);border-radius:var(--radius);padding:1rem;">
+      <p style="font-size:13px;color:var(--text-secondary);margin:0 0 4px;">Forecast error</p>
+      <p style="font-size:22px;font-weight:500;margin:0;">6.4 <span style="font-size:13px;color:var(--text-muted);font-weight:400;">MAE</span></p>
+      <p style="font-size:12px;color:var(--text-success);margin:4px 0 0;"><i class="ti ti-trending-down" style="font-size:13px;vertical-align:-1px;" aria-hidden="true"></i> 0.4 lower vs last week</p>
+    </div>
+  </div>
+
+  <div style="background:var(--surface-2);border-radius:var(--radius);padding:1rem;margin-bottom:12px;">
+    <p style="font-size:13px;color:var(--text-secondary);margin:0 0 4px;">Estimated waste value</p>
+    <p style="font-size:22px;font-weight:500;margin:0 0 8px;">$728.40</p>
+    <div style="display:flex;height:6px;border-radius:3px;overflow:hidden;background:var(--surface-1);">
+      <div style="width:73%;background:var(--fill-warning);"></div>
+      <div style="width:27%;background:var(--border-strong);"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-muted);margin-top:6px;">
+      <span>Recorded 228</span><span>Est. unrecorded 84</span>
+    </div>
+  </div>
+
+  <div style="background:var(--surface-2);border-radius:var(--radius);padding:1rem;margin-bottom:12px;">
+    <p style="font-size:13px;color:var(--text-secondary);margin:0 0 8px;">Actual vs forecast, last 7 days</p>
+    <svg viewBox="0 0 320 70" style="width:100%;height:70px;" role="img" aria-label="Line chart comparing actual and forecast cases over the last 7 days">
+      <polyline points="0,50 45,25 90,35 135,20 180,40 225,15 270,30 315,10" fill="none" stroke="var(--text-accent)" stroke-width="2"/>
+      <polyline points="0,55 45,38 90,32 135,35 180,28 225,26 270,24 315,20" fill="none" stroke="var(--text-muted)" stroke-width="2" stroke-dasharray="4 3"/>
+    </svg>
+    <div style="display:flex;gap:16px;font-size:11px;color:var(--text-muted);margin-top:4px;">
+      <span><span style="display:inline-block;width:8px;height:2px;background:var(--text-accent);margin-right:4px;"></span>Actual</span>
+      <span><span style="display:inline-block;width:8px;height:2px;background:var(--text-muted);margin-right:4px;"></span>Forecast</span>
+    </div>
+  </div>
+
+  <div>
+    <p style="font-size:13px;color:var(--text-secondary);margin:0 0 8px;">Today's bake planning</p>
+    <div style="display:flex;flex-direction:column;gap:8px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface-2);border-radius:var(--radius);padding:10px 12px;">
+        <div><p style="font-size:13px;font-weight:500;margin:0;">Butter croissant</p><p style="font-size:11px;color:var(--text-muted);margin:0;">Central Station</p></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="font-size:13px;font-weight:500;background:var(--bg-warning);color:var(--text-warning);padding:2px 8px;border-radius:var(--radius);">192</span><span style="font-size:11px;background:var(--bg-danger);color:var(--text-danger);padding:2px 8px;border-radius:var(--radius);">High risk</span></div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface-2);border-radius:var(--radius);padding:10px 12px;">
+        <div><p style="font-size:13px;font-weight:500;margin:0;">Country sourdough</p><p style="font-size:11px;color:var(--text-muted);margin:0;">Riverside</p></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="font-size:13px;font-weight:500;background:var(--bg-warning);color:var(--text-warning);padding:2px 8px;border-radius:var(--radius);">132</span><span style="font-size:11px;background:var(--bg-warning);color:var(--text-warning);padding:2px 8px;border-radius:var(--radius);">Watch</span></div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface-2);border-radius:var(--radius);padding:10px 12px;">
+        <div><p style="font-size:13px;font-weight:500;margin:0;">Seeded multigrain</p><p style="font-size:11px;color:var(--text-muted);margin:0;">West End</p></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="font-size:13px;font-weight:500;background:var(--bg-success);color:var(--text-success);padding:2px 8px;border-radius:var(--radius);">72</span><span style="font-size:11px;background:var(--bg-success);color:var(--text-success);padding:2px 8px;border-radius:var(--radius);">On track</span></div>
+      </div>
+    </div>
+  </div>
+</div>
